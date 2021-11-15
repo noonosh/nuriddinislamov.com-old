@@ -27,11 +27,31 @@ const Skills = () => {
 				</h1>
 				<div className='max-w-5xl mx-auto'>
 					<div className='lg:flex lg:flex-wrap justify-evenly m-4'>
-						<Card image={python} listItems={skillsPython} />
-						<Card image={javascript} listItems={skillsJavaScript} />
-						<Card image={javascript} listItems={skillsJavaScript} />
-						<Card image={javascript} listItems={skillsJavaScript} />
-						<Card image={javascript} listItems={skillsJavaScript} />
+						<Card
+							image={python}
+							alt='Python logo'
+							listItems={skillsPython}
+						/>
+						<Card
+							image={javascript}
+							alt='Javascript logo'
+							listItems={skillsJavaScript}
+						/>
+						<Card
+							image={javascript}
+							alt='Javascript logo'
+							listItems={skillsJavaScript}
+						/>
+						<Card
+							image={javascript}
+							alt='Javascript logo'
+							listItems={skillsJavaScript}
+						/>
+						<Card
+							image={javascript}
+							alt='Javascript logo'
+							listItems={skillsJavaScript}
+						/>
 					</div>
 				</div>
 				<div className='flex justify-center mb-16 mt-4 lg:pb-12'>
