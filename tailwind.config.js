@@ -17,6 +17,7 @@ module.exports = {
 			translate: ['active'],
 			transitionProperty: ['active'],
 			transitionDuration: ['active'],
+			cursor: ['hover'],
 		},
 	},
 	plugins: [],

@@ -12,21 +12,21 @@ const Navbar = () => {
 				</div>
 				<div className='flex flex-col text-right'>
 					<ul>
-						<li className='mb-3 transform transition  hover:opacity-60 hover:scale-125 transition duration-700 ease-in-out '>
+						<li className='mb-3 transform hover:opacity-60 hover:scale-125 transition duration-700 ease-in-out '>
 							<Link
 								to='/about'
 								className='hover:text-current text-gray-900 text-gray-900'>
 								About
 							</Link>
 						</li>
-						<li className='mb-3 transform transition  hover:opacity-60 hover:scale-125 transition duration-700 ease-in-out '>
+						<li className='mb-3 transform hover:opacity-60 hover:scale-125 transition duration-700 ease-in-out '>
 							<Link
 								to='/skills'
 								className='hover:text-current text-gray-900 text-gray-900'>
 								Skills
 							</Link>
 						</li>
-						<li className='mb-3 transform transition  hover:opacity-60 hover:scale-125 transition duration-700 ease-in-out '>
+						<li className='mb-3 transform hover:opacity-60 hover:scale-125 transition duration-700 ease-in-out '>
 							<Link
 								to='/contact'
 								className='hover:text-current text-gray-900 text-gray-900'>

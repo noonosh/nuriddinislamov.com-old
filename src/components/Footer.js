@@ -7,7 +7,10 @@ const Footer = () => {
 			className='text-gray-400 opacity-80 text-sm flex justify-center items-center mt-auto mb-4 lg:justify-evenly lg:px-48 
 				'>
 			<div className='hidden lg:block'>
-				<a href='https://github.com/nuriddinislamov'>
+				<a
+					href='https://github.com/nuriddinislamov'
+					target='_blank'
+					rel='noreferrer'>
 					<img src={image} alt='Github logo' />
 				</a>
 			</div>
