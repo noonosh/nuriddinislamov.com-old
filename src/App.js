@@ -1,16 +1,22 @@
 import React from 'react';
-import Hero from './components/Hero';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
 import About from './components/About';
-// import Skills from './components/Skills';
-// import Links from './components/Links';
-// import Contact from './components/Contact';
+import Skills from './components/Skills';
+import Links from './components/Links';
+import Contact from './components/Contact';
 
 function App() {
 	return (
-		<>
-			<Hero />
-			<About />
-		</>
+		<BrowserRouter>
+			<Routes>
+				<Route element={<Home />} exact path='/' />
+				<Route element={<About />} path='/about' />
+				<Route element={<Skills />} path='/skills' />
+				<Route element={<Links />} path='/links' />
+				<Route element={<Contact />} path='/contact' />
+			</Routes>
+		</BrowserRouter>
 	);
 }
 
