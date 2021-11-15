@@ -4,7 +4,7 @@ import Footer from './Footer';
 
 const Contact = () => {
 	return (
-		<div className='container mx-auto'>
+		<div className='page-container'>
 			<Navbar />
 			<Footer />
 		</div>
