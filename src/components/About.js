@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from './Navbar';
 import image from '../assets/smile.png';
 import Button from './Button';
@@ -16,6 +16,9 @@ const sentences = [
 ];
 
 const About = () => {
+	useEffect(() => {
+		document.title = 'Exploring Nuriddin';
+	}, []);
 	return (
 		<div className='page-container'>
 			<Navbar />

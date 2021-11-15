@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import python from '../assets/icons/python.svg';
@@ -18,6 +18,9 @@ const skillsJavaScript = [
 ];
 
 const Skills = () => {
+	useEffect(() => {
+		document.title = "Nuriddin's abilities";
+	}, []);
 	return (
 		<div className='page-container'>
 			<Navbar />
