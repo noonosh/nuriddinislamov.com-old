@@ -1,7 +1,15 @@
 import React from 'react';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 const Skills = () => {
-	return <h1>This is a Skills section.</h1>;
+	return (
+		<div className='container mx-auto'>
+			<Navbar />
+			<div>Skills</div>
+			<Footer />
+		</div>
+	);
 };
 
 export default Skills;

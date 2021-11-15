@@ -1,7 +1,14 @@
 import React from 'react';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 const Contact = () => {
-	return <h1>This is a Contact section.</h1>;
+	return (
+		<div className='container mx-auto'>
+			<Navbar />
+			<Footer />
+		</div>
+	);
 };
 
 export default Contact;
