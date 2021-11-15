@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 	return (
-		<nav className='container mx-auto px-3'>
-			<div className='mt-14 flex flex-row justify-between items-start text-xl lg:text-3xl font-thin tracking-widest'>
+		<nav>
+			<div className='my-8 mx-2 flex justify-between font-thin tracking-widest items-start text-xl lg:text-3xl lg:mx-6'>
 				<div>
 					<Link to='/' className='hover:text-current'>
 						@nuriddinislamov
