@@ -5,3 +5,7 @@
 body {
 	font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial;
 }
+
+.page-container {
+	@apply container mx-auto px-4 flex flex-col min-h-screen;
+}
