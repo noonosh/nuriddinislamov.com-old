@@ -12,26 +12,24 @@ const Navbar = () => {
 				</div>
 				<div className='flex flex-col text-right'>
 					<ul>
-						<li className='mb-3 transform transition hover:-translate-x-1.5'>
+						<li className='mb-3 transform transition  hover:opacity-60 hover:scale-125 transition duration-700 ease-in-out '>
 							<Link
 								to='/about'
-								className='focus:outline-none hover:opacity-60 text-gray-900 hover:text-current active:bg-gray-200 visited:bg-purple-600'>
+								className='hover:text-current text-gray-900 text-gray-900'>
 								About
 							</Link>
 						</li>
-						<li className='mb-3 transform transition hover:-translate-x-1.5'>
+						<li className='mb-3 transform transition  hover:opacity-60 hover:scale-125 transition duration-700 ease-in-out '>
 							<Link
 								to='/skills'
-								className='focus:outline-none hover:opacity-60 text-gray-900 hover:text-current
-								active:bg-gray-200'>
+								className='hover:text-current text-gray-900 text-gray-900'>
 								Skills
 							</Link>
 						</li>
-						<li className='mb-3 transform transition hover:-translate-x-1.5'>
+						<li className='mb-3 transform transition  hover:opacity-60 hover:scale-125 transition duration-700 ease-in-out '>
 							<Link
 								to='/contact'
-								className='focus:outline-none hover:opacity-60 text-gray-900 hover:text-current
-								active:bg-gray-200'>
+								className='hover:text-current text-gray-900 text-gray-900'>
 								Contact
 							</Link>
 						</li>
