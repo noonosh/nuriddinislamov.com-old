@@ -14,7 +14,7 @@ const Footer = () => {
 			<div className='hidden lg:block'>
 				<span>&copy;</span> Nuriddin Islamov {new Date().getFullYear()}
 			</div>
-			<div className=''>Built with React &#10084;&#65039;</div>
+			<div className=''>built with React &#10084;&#65039;</div>
 		</footer>
 	);
 };
