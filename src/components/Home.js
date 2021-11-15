@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 import { Navigate } from 'react-router-dom';
@@ -6,6 +6,9 @@ import Navbar from './Navbar';
 import 'animate.css';
 
 const Home = () => {
+	useEffect(() => {
+		document.title = 'nuriddinislamov';
+	}, []);
 	return (
 		<div className='page-container'>
 			<div>
