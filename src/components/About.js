@@ -19,7 +19,7 @@ const About = () => {
 		<div className='page-container'>
 			<Navbar />
 			<section>
-				<h1 className='m-2 p-2 font-thin text-center text-6xl tracking-widest text-gray-400 opacity-40 lg:hidden'>
+				<h1 className='m-2 p-2 font-thin text-center text-6xl tracking-widest text-gray-400 opacity-60 lg:hidden'>
 					About
 				</h1>
 				<div className='mb-2 py-2 text-2xl text-gray-900 font-bold flex flex-wrap justify-center lg:text-5xl'>
