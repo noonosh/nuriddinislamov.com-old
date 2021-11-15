@@ -14,8 +14,14 @@ const Footer = () => {
 					<img src={image} alt='Github logo' />
 				</a>
 			</div>
-			<div className='hidden lg:block'>
-				<span>&copy;</span> Nuriddin Islamov {new Date().getFullYear()}
+			<div className='hidden lg:block text-center'>
+				<div>
+					2019-
+					{new Date().getFullYear()}
+				</div>
+				<div>
+					<span>&copy;</span> Nuriddin Islamov{' '}
+				</div>
 			</div>
 			<div className=''>built with React &#10084;&#65039;</div>
 		</footer>
