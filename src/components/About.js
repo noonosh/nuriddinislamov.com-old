@@ -4,14 +4,15 @@ import image from '../assets/smile.png';
 import Button from './Button';
 import Footer from './Footer';
 import Typewriter from 'typewriter-effect';
+import 'animate.css';
 
 const sentences = [
 	'a software engineer',
-	'a bookworm',
+	'a bibliophile',
 	'a JavaScipt developer',
 	'in love with React',
-	'a chess amateur',
-	'a coffee lover',
+	'a chess enthusiast',
+	'a coffeeholic',
 ];
 
 const About = () => {
@@ -32,7 +33,7 @@ const About = () => {
 						}}
 					/>
 				</div>
-				<div className='lg:my-12 max-w-sm lg:max-w-4xl mx-auto rounded-2xl shadow bg-white lg:flex'>
+				<div className='lg:my-12 max-w-sm lg:max-w-4xl mx-auto rounded-2xl shadow bg-white lg:flex animate__animated animate__jackInTheBox'>
 					<div className='lg:flex-shrink-0'>
 						<img
 							src={image}

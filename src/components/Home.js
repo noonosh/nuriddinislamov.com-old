@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 import { Navigate } from 'react-router-dom';
 import Navbar from './Navbar';
+import 'animate.css';
 
 const Home = () => {
 	return (
@@ -36,7 +37,7 @@ const Home = () => {
 						}}
 					/>
 				</div>
-				<div className='absolute bottom-0 mb-36'>
+				<div className='absolute bottom-0 mb-16 animate__animated animate__fadeIn animate__delay-5s'>
 					{/* 'Continue' button */}
 					<div className='flex justify-start lg:justify-end items-center text-gray-800 transition transform ease-in-out duration-600 hover:scale-110 hover:cursor-pointer p-4'>
 						<Link
