@@ -63,10 +63,7 @@ const About = () => {
 
 				<div className='flex justify-center mb-16 mt-4 lg:pb-24'>
 					<div>
-						<Button text='Back to main' route='/' />
-					</div>
-					<div>
-						<Button text='Next' route='/skills' />
+						<Button text='Next page' route='/skills' />
 					</div>
 				</div>
 			</section>
