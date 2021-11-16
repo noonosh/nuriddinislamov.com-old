@@ -86,15 +86,13 @@ const Contact = () => {
 							OR
 						</div>
 						<div className='flex-grow lg:w-0 mx-2 h-96 text-center rounded-xl bg-white shadow flex flex-col'>
-							<h3 className='font-bold pt-4 pb2 text-2xl'>
+							<h3 className='font-bold p-4 text-2xl'>
 								Follow around!
 							</h3>
 							<ul className='text-center mx-auto text-xl tracking-wider font-normal leading-loose'>
 								{socialNetworks.map(socialNetwork => (
 									<li
-										className={`bg-${
-											socialNetwork.color
-										}-300 my-3 rounded-2xl px-4 ${
+										className={`my-3 rounded-2xl px-4 ${
 											(socialNetworks.indexOf(
 												socialNetwork,
 											) +
@@ -103,7 +101,7 @@ const Contact = () => {
 											0
 												? 'ml-24 hover:translate-x-1.5 hover:translate-y-1.5'
 												: 'mr-24 hover:-translate-x-1.5 hover:-translate-y-1.5'
-										} transform transition`}>
+										} transform transition hover:text-gray-400`}>
 										<a
 											className='hover:text-current'
 											href={socialNetwork.link}
