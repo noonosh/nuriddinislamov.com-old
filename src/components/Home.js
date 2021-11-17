@@ -27,7 +27,7 @@ const Home = () => {
 								.deleteAll(30)
 
 								.typeString(
-									'Oh, <br/> I assume you already knew that',
+									'Oh, <br/> I assume you <br/> already knew that',
 								)
 								.pauseFor(1000)
 								.deleteAll(10)
