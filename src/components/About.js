@@ -15,6 +15,16 @@ const sentences = [
 	'a coffeeholic',
 ];
 
+const LinkTemplate = ({ text, url }) => (
+	<a
+		href={url}
+		className='text-blue-700 hover:underline'
+		target='_blank'
+		rel='noreferrer'>
+		{text}
+	</a>
+);
+
 const About = () => {
 	useEffect(() => {
 		document.title = 'Exploring Nuriddin';
@@ -45,18 +55,77 @@ const About = () => {
 						/>
 					</div>
 					<div className='p-8'>
-						<p
-							class='leading-relaxed'
-							style={{ 'text-indent': '1.5rem' }}>
-							Lorem Ipsum is simply dummy text of the printing and
-							typesetting industry. Lorem Ipsum has been the
-							industry's standard dummy text <strong>ever</strong>{' '}
-							since the 1500s, when an unknown printer took a
-							galley of type and scrambled it to make a type
-							specimen book. It has{' '}
-							<strong>survived not only five centuries</strong>,
-							but also the leap into electronic typesetting,
-							remaining essentially unchanged.
+						<p class='leading-relaxed'>
+							<i>"I am a passionate and hardworking pers..."</i> -{' '}
+							<i>bla bla and so on</i> <br />
+							You have probably heard it many times and from
+							different people. My story is a bit different,
+							here's a quick one:
+							<br />
+							<br />
+							<span
+								className='inline-block'
+								style={{ 'text-indent': '1.5rem' }}>
+								Having started my school
+							</span>{' '}
+							<strong>at the age of 5</strong>, I spent 2 years in
+							a{' '}
+							<LinkTemplate
+								url='https://www.nordangliaeducation.com/en/our-schools/uzbekistan/tashkent/british'
+								text='British education environment'
+							/>{' '}
+							(2016/18) , where I have prepared myself for
+							upcoming exams. <strong>I placed #1</strong> in one
+							of the{' '}
+							<LinkTemplate
+								url='http://iht.uz/en/about-us-2/'
+								text='entrance exams'
+							/>{' '}
+							for a college (specialised high school), studied at
+							the one of my choice and graduated with an{' '}
+							<strong>A grade</strong> in 13/16 subjects. Soon
+							after, entered{' '}
+							<LinkTemplate
+								url='https://wiut.uz'
+								text='Westminster International University in Tashkent'
+							/>{' '}
+							and graduated Foundation studies with Distinction.
+							<br />
+							<br />
+							Next thing is next. Despite I identify myself as an
+							introvert, I managed to achieve 87% people's trust
+							around me during my life-long journey.{' '}
+							<LinkTemplate
+								url='https://www.dictionary.com/browse/tbh'
+								text='Tbh,'
+							/>{' '}
+							I love psychology and the science of human behavior!
+							<br />
+							<br />
+							Regarding my{' '}
+							<LinkTemplate
+								url='https://www.dictionary.com/e/acronyms/tbr/'
+								text='TBR'
+							/>{' '}
+							shelf: it's full. What I have enjoyed so far is Ayn
+							Rand's books –{' '}
+							<i>
+								"I will never live for the sake of another man,
+								nor ask another man to live for mine."
+							</i>
+							<br />
+							<br />
+							And lastly, but not least, I am a{' '}
+							<strong>
+								software engineer/developer or a programmer
+							</strong>
+							, whatever you say it. I love all about ones and
+							zeros and sure can handle a lot with them.{' '}
+							<i>
+								"There are 10 types of people - who understand
+								binary and who don't"
+							</i>
+							.
 						</p>
 					</div>
 				</div>

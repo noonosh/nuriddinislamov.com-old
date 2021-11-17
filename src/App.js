@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
-import Links from './components/Links';
 import Contact from './components/Contact';
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
 				<Route element={<Home />} exact path='/' />
 				<Route element={<About />} path='/about' />
 				<Route element={<Skills />} path='/skills' />
-				<Route element={<Links />} path='/links' />
 				<Route element={<Contact />} path='/contact' />
 			</Routes>
 		</BrowserRouter>

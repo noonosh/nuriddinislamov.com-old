@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
-import { Navigate } from 'react-router-dom';
 import Navbar from './Navbar';
 import 'animate.css';
 
@@ -22,21 +21,52 @@ const Home = () => {
 								.pauseFor(1000)
 								.typeString('Hey there ')
 								.pasteString('<code>&#128075;</code><br/>')
-								.typeString('I am <br/> Nuriddin')
+
+								.typeString('I am Nuriddin')
 								.pauseFor(1000)
-								.deleteAll(50)
-								.typeString('I work')
-								.pauseFor(1500)
 								.deleteAll(30)
-								.callFunction(state => {
-									// hide cursor
-									state.elements.cursor.style.display =
-										'none';
-								})
-								.callFunction(() => {
-									return <Navigate to='/about' />;
-								})
+
+								.typeString(
+									'Oh, <br/> I assume you already knew that',
+								)
+								.pauseFor(1000)
+								.deleteAll(10)
+
+								.typeString(
+									'Can you imagine me <br/> right now in front of yourself?',
+								)
+								.pauseFor(1000)
+								.deleteAll(10)
+
+								.typeString(
+									'If no, then continue <br/> to the next page <br/> where you can read more!',
+								)
+								.pauseFor(1000)
+								.deleteAll(10)
+
+								.typeString(
+									"I love sharing love, <br/> and I mean it ;) <br/> That's for you - ",
+								)
+								.pasteString('<code>&#10084;&#65039;</code>')
+								.pauseFor(1000)
+								.deleteAll(10)
+
+								.typeString(
+									"Let's start it all <br/> from the beginning!",
+								)
+								.pauseFor(1000)
+								.deleteAll(10)
+								.pauseFor(3000)
+
+								// .callFunction(state => {
+								// 	// hide cursor
+								// 	state.elements.cursor.style.display =
+								// 		'none';
+								// })
 								.start();
+						}}
+						options={{
+							loop: true,
 						}}
 					/>
 				</div>
@@ -45,7 +75,7 @@ const Home = () => {
 					<div className='flex justify-start lg:justify-end items-center text-gray-800 transition transform ease-in-out duration-600 hover:scale-110 hover:cursor-pointer p-4'>
 						<Link
 							to='/about'
-							className='font-light text-4xl tracking-wider px-1 hover:text-current'>
+							className='font-light text-2xl lg:text-4xl tracking-wider px-1 hover:text-current'>
 							Continue
 						</Link>
 						<svg

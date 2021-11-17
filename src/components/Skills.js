@@ -3,18 +3,28 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import python from '../assets/icons/python.svg';
 import javascript from '../assets/icons/javascript.svg';
+import postgresql from '../assets/icons/postgresql.svg';
 import Card from './Card';
 import Button from './Button';
 
-const skillsPython = ['1 year of experience', 'Good understanding of Python'];
+const skillsPython = [
+	'1 year experience',
+	'Developed 12+ commercial chat bots for businesses',
+	'Hands on experience with external RESTful APIs and other services',
+	'At the early stage of ML/AI',
+];
 
 const skillsJavaScript = [
-	'1 year of experience',
-	'Good understanding of JS',
-	'sdfksndflksd',
-	'sdfk ms dfsdf s',
-	'sfkl sn flref',
-	'dfjk nslf merl kfm erlf mer',
+	'Most enjoyed language so far!',
+	'Loving React with Redux',
+	'Able to build complex web app UI components',
+	'My front-end tech-stack king',
+];
+
+const skillsPostgresSQL = [
+	'Experience with all types of queries',
+	'Maintenance and and role management',
+	'Top choice database engine for every project I have completed',
 ];
 
 const Skills = () => {
@@ -41,19 +51,9 @@ const Skills = () => {
 							listItems={skillsJavaScript}
 						/>
 						<Card
-							image={javascript}
-							alt='Javascript logo'
-							listItems={skillsJavaScript}
-						/>
-						<Card
-							image={javascript}
-							alt='Javascript logo'
-							listItems={skillsJavaScript}
-						/>
-						<Card
-							image={javascript}
-							alt='Javascript logo'
-							listItems={skillsJavaScript}
+							image={postgresql}
+							alt='PostgreSQL logo'
+							listItems={skillsPostgresSQL}
 						/>
 					</div>
 				</div>
