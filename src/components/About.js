@@ -120,7 +120,7 @@ const About = () => {
 								software engineer/developer or a programmer
 							</strong>
 							, whatever you say it. I love all about ones and
-							zeros and sure can handle a lot with them.{' '}
+							zeros and surely can handle a lot of them.{' '}
 							<i>
 								"There are 10 types of people - who understand
 								binary and who don't"
