@@ -20,10 +20,10 @@ const Footer = () => {
 					{new Date().getFullYear()}
 				</div>
 				<div>
-					<span>&copy;</span> Nuriddin Islamov{' '}
+					<span>&copy;</span> nuriddin islamov{' '}
 				</div>
 			</div>
-			<div className=''>built with React &#10084;&#65039;</div>
+			<div className=''>built with react &#10084;&#65039;</div>
 		</footer>
 	);
 };

@@ -10,7 +10,7 @@ const Card = ({ image, listItems, alt }) => {
 			<div className='pl-4 font-extralight tracking-wide'>
 				<ul className='list-disc'>
 					{listItems.map(listItem => (
-						<li>{listItem}</li>
+						<li>{listItem.toLowerCase()}</li>
 					))}
 				</ul>
 			</div>

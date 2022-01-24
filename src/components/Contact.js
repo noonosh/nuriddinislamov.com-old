@@ -5,27 +5,27 @@ import Button from './Button';
 
 const socialNetworks = [
 	{
-		text: 'GitHub',
+		text: 'github',
 		link: 'https://github.com/nuriddinislamov',
 		color: 'gray',
 	},
 	{
-		text: 'Twitter',
+		text: 'twitter',
 		link: 'https://twitter.com/nuriddinislamov',
 		color: 'blue',
 	},
 	{
-		text: 'Facebook',
+		text: 'facebook',
 		link: 'https://facebook.com/nuriddinislamov07',
 		color: 'green',
 	},
 	{
-		text: 'Telegram',
+		text: 'telegram',
 		link: 'https://t.me/inuriddin',
 		color: 'yellow',
 	},
 	{
-		text: 'LinkedIn',
+		text: 'linkedin',
 		link: 'https://linkedin.com/in/nuriddinislamov',
 		color: 'red',
 	},
@@ -50,11 +50,11 @@ const Contact = () => {
 						<div className='flex-grow lg:w-0 h-96 flex mx-2 flex-col items-center rounded-xl shadow bg-white'>
 							<div className='px-4'>
 								<h3 className='font-bold py-4 text-2xl'>
-									<u>Message</u> me right now!
+									<u>message</u> me right now!
 								</h3>
 								<form onSubmit={handleSubmit}>
 									<div className='flex flex-col mb-4'>
-										<label>E-mail</label>
+										<label>e-mail</label>
 										<input
 											className='border p-2 rounded'
 											type='email'
@@ -64,7 +64,7 @@ const Contact = () => {
 										/>
 									</div>
 									<div className='flex flex-col mb-4'>
-										<label>Message</label>
+										<label>message</label>
 										<textarea
 											className='border p-2 rounded max-h-20'
 											type='text'
@@ -77,17 +77,17 @@ const Contact = () => {
 									<button
 										type='submit'
 										className='font-semibold text-base rounded-2xl bg-gray-800 text-white px-4 py-2 shadow transform transition hover:-translate-y-0.5'>
-										Send
+										send
 									</button>
 								</form>
 							</div>
 						</div>
 						<div className='text-2xl tracking-widest font-thin text-center m-6'>
-							OR
+							or
 						</div>
 						<div className='flex-grow lg:w-0 mx-2 h-96 text-center rounded-xl bg-white shadow flex flex-col'>
 							<h3 className='font-bold p-4 text-2xl'>
-								Follow around!
+								follow around!
 							</h3>
 							<ul className='text-center mx-auto text-xl tracking-wider font-normal leading-loose'>
 								{socialNetworks.map(socialNetwork => (

@@ -16,21 +16,21 @@ const Navbar = () => {
 							<Link
 								to='/about'
 								className='hover:text-current text-gray-900 text-gray-900'>
-								About
+								about
 							</Link>
 						</li>
 						<li className='mb-3 transform hover:opacity-60 hover:scale-125 transition duration-700 ease-in-out '>
 							<Link
 								to='/skills'
 								className='hover:text-current text-gray-900 text-gray-900'>
-								Skills
+								skills
 							</Link>
 						</li>
 						<li className='mb-3 transform hover:opacity-60 hover:scale-125 transition duration-700 ease-in-out '>
 							<Link
 								to='/contact'
 								className='hover:text-current text-gray-900 text-gray-900'>
-								Contact
+								contact
 							</Link>
 						</li>
 					</ul>

@@ -76,7 +76,7 @@ const Home = () => {
 						<Link
 							to='/about'
 							className='font-light text-2xl lg:text-4xl tracking-wider px-1 hover:text-current'>
-							Continue
+							continue
 						</Link>
 						<svg
 							className='w-8 h-8 pt-1'

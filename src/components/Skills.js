@@ -36,7 +36,7 @@ const Skills = () => {
 			<Navbar />
 			<section>
 				<h1 className='font-thin text-5xl lg:text-7xl tracking-widest text-gray-400 lg:pl-36'>
-					Skills
+					skills
 				</h1>
 				<div className='max-w-5xl mx-auto'>
 					<div className='lg:flex lg:flex-wrap justify-evenly m-4'>
