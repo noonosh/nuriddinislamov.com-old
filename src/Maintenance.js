@@ -6,19 +6,18 @@ function Maintenance() {
 	}, []);
 	return (
 		<React.Fragment>
-			<div className='flex flex-column h-screen w-100 text-center justify-center dark:bg-gray-800'>
-				<h1 className='font-bold text-4xl py-3 dark:text-white'>
-					🛠 Temporarily unavailable
+			<div className='flex flex-column w-100 min-h-screen text-center justify-center items-center'>
+				<h1 className='font-bold text-3xl py-3 dark:text-white'>
+					🛠 I am working hard to bring this site back to life
 				</h1>
-				<p className='mb-24 dark:text-gray-400'>
-					Don't you worry, I will be back really soon! In case of an
-					emergency, use{' '}
+				<p className='mb-24 dark:text-gray-300'>
+					Don't you worry, it will be back really soon! In case of an
+					emergency, reach me out{' '}
 					<a
 						href='mailto:nuriddinislamov@icloud.com'
-						className='text-blue-600 hover:underline dark:text-blue-400 dark:hover:text-blue-500 transition duration-500 ease-in-out'>
-						this email
+						className='text-blue-600 hover:underline hover:text-blue-700'>
+						here.
 					</a>{' '}
-					address.
 				</p>
 			</div>
 		</React.Fragment>
