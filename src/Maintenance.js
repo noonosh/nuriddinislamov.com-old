@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { Toggle } from './components/Toggle';
 
 function Maintenance() {
 	useEffect(() => {
