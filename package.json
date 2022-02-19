@@ -1,47 +1,38 @@
 {
-	"name": "portfolio-website",
-	"version": "0.1.0",
-	"private": true,
+	"name": "nuriddinislamov-com",
+	"version": "1.0.0",
+	"description": "This project was built with [React](https://github.com/facebook/react)",
+	"main": "tailwind.config.js",
+	"scripts": {
+		"dev": "webpack serve",
+		"build": "webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nuriddinislamov/nuriddinislamov-com.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/nuriddinislamov/nuriddinislamov-com/issues"
+	},
+	"homepage": "https://github.com/nuriddinislamov/nuriddinislamov-com#readme",
 	"dependencies": {
-		"@craco/craco": "^6.4.0",
-		"@testing-library/jest-dom": "^5.15.0",
-		"@testing-library/react": "^11.2.7",
-		"@testing-library/user-event": "^12.8.3",
-		"animate.css": "^4.1.1",
+		"autoprefixer": "^10.4.2",
+		"postcss": "^8.4.6",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
-		"react-router-dom": "^6.0.2",
-		"react-scripts": "4.0.3",
-		"typewriter-effect": "^2.18.2",
-		"web-vitals": "^1.1.2"
-	},
-	"scripts": {
-		"start": "craco start",
-		"build": "craco build",
-		"test": "craco test",
-		"eject": "react-scripts eject"
-	},
-	"eslintConfig": {
-		"extends": [
-			"react-app",
-			"react-app/jest"
-		]
-	},
-	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
+		"tailwindcss": "^3.0.23"
 	},
 	"devDependencies": {
-		"autoprefixer": "^9.8.8",
-		"postcss": "^7.0.39",
-		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+		"@babel/core": "^7.17.5",
+		"@babel/preset-env": "^7.16.11",
+		"@babel/preset-react": "^7.16.7",
+		"babel-loader": "^8.2.3",
+		"html-webpack-plugin": "^5.5.0",
+		"webpack": "^5.69.1",
+		"webpack-cli": "^4.9.2",
+		"webpack-dev-server": "^4.7.4"
 	}
 }

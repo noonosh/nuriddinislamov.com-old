@@ -1,24 +1,7 @@
 module.exports = {
-	purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-	darkMode: 'class', // or 'media' or 'class'
+	content: ['./src/**/*.{js,jsx,ts,tsx}'],
 	theme: {
-		extend: {
-			container: {
-				center: true,
-			},
-		},
-	},
-	variants: {
-		extend: {
-			backgroundColor: ['active', 'visited'],
-			fontStyle: ['active'],
-			textColor: ['hover'],
-			transform: ['active'],
-			translate: ['active'],
-			transitionProperty: ['active'],
-			transitionDuration: ['active'],
-			cursor: ['hover'],
-		},
+		extend: {},
 	},
 	plugins: [],
 };
