@@ -1,7 +1,15 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Hero from './components/Hero.js';
 
 const App = () => {
-	return <h1>hey</h1>;
+	return (
+		<BrowserRouter>
+			<Routes>
+				<Route path='/' element={<Hero />} />
+			</Routes>
+		</BrowserRouter>
+	);
 };
 
 export default App;
