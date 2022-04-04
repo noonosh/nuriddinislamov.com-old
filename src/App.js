@@ -5,16 +5,18 @@ import About from './components/About';
 import Work from './components/Work';
 import Contact from './components/Contact.js';
 import Footer from './components/Footer';
+import Maintenance from './components/Maintenance';
 
 const App = () => {
 	return (
 		<div className='App'>
-			<NavBar />
+			{/* <NavBar />
 			<Home />
 			<About />
 			<Work />
 			<Contact />
-			<Footer />
+			<Footer /> */}
+			<Maintenance />
 		</div>
 	);
 };
