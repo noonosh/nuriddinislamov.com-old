@@ -15,7 +15,7 @@ const Footer = () => {
 		<footer className='py-6 bg-slate-100 px-8'>
 			<div className='flex justify-between text-center'>
 				<div className='text-center text-gray-500 font-light tracking-tight'>
-					© Nuriddin Islamov, {new Date().getFullYear()}
+					© {new Date().getFullYear()} Nuriddin Islamov
 				</div>
 
 				<div className=''>
