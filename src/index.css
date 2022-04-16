@@ -2,8 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+	box-sizing: border-box;
+}
+
 @layer components {
 	.social_link {
 		@apply hover:underline text-sky-500;
+	}
+	.nav_item {
+		@apply ml-8;
+	}
+	.clickable {
+		@apply focus:outline-none focus:ring-2 ring-offset-2 ring-slate-500;
 	}
 }
