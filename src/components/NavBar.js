@@ -19,13 +19,13 @@ const NavBar = () => {
 
 				<ul className='md:flex text-lg font-medium hidden whitespace-nowrap'>
 					<li className='nav_item'>
-						<Link to='/about'>About me</Link>
+						<Link to='/me'>me</Link>
 					</li>
 					<li className='nav_item'>
-						<Link to='/projects'>Projects</Link>
+						<Link to='/projects'>projects</Link>
 					</li>
 					<li className='nav_item'>
-						<Link to='/reach-out'>Get in touch</Link>
+						<Link to='/reach-out'>get in touch</Link>
 					</li>
 				</ul>
 			</div>
