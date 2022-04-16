@@ -1,26 +1,21 @@
 import React from 'react';
-import NavBar from './components/NavBar';
 import Home from './components/Home';
+// eslint-disable-next-line
 import About from './components/About';
+// eslint-disable-next-line
 import Work from './components/Work';
+// eslint-disable-next-line
 import Contact from './components/Contact.js';
-import Footer from './components/Footer';
-import Maintenance from './components/Maintenance';
+// import Maintenance from './components/Maintenance';
 
 const App = () => {
 	return (
-		<div>
-			<Maintenance />
-		</div>
-		/* <main className='text-gray-400 bg-gray-900 body-font'>
-			<NavBar />
+		// <div>
+		// 	<Maintenance />
+		// </div>
+		<main>
 			<Home />
-			<About />
-			<Work />
-			<Contact />
-			<Footer />
-			
-		</main> */
+		</main>
 	);
 };
 
