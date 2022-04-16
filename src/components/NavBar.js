@@ -17,13 +17,13 @@ const NavBar = () => {
 				</div>
 
 				<ul className='md:flex flex-col items-center md:flex-row md:text-xl md:font-light md:tracking-wide hidden whitespace-nowrap'>
-					<li className='nav_item hover:underline underline-offset-4 hover:text-gray-600'>
+					<li className='ml-8 hover:underline underline-offset-4 hover:text-gray-600'>
 						<a href='/about'>About me</a>
 					</li>
-					<li className='nav_item hover:underline underline-offset-4 hover:text-gray-600'>
+					<li className='ml-8 hover:underline underline-offset-4 hover:text-gray-600'>
 						<a href='/download'>Projects</a>
 					</li>
-					<li className='nav_item hover:underline underline-offset-4 hover:text-gray-600'>
+					<li className='ml-8 hover:underline underline-offset-4 hover:text-gray-600'>
 						<a href='/contact'>Get in touch</a>
 					</li>
 				</ul>

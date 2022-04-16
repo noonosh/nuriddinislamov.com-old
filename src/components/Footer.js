@@ -22,7 +22,7 @@ const Footer = () => {
 				<div className=''>
 					{width > 768 ? (
 						<ul className='flex justify-between'>
-							<li className='nav_item'>
+							<li className='ml-8'>
 								<a
 									href='https://github.com/nuriddinislamov'
 									target='_blank'
@@ -31,7 +31,7 @@ const Footer = () => {
 									<FontAwesomeIcon icon={faGithub} className='text-2xl' />
 								</a>
 							</li>
-							<li className='nav_item'>
+							<li className='ml-8'>
 								<a
 									href='https://twitter.com/nuriddinislamov'
 									target='_blank'
@@ -40,7 +40,7 @@ const Footer = () => {
 									<FontAwesomeIcon icon={faTwitter} className='text-2xl' />
 								</a>
 							</li>
-							<li className='nav_item'>
+							<li className='ml-8'>
 								<a
 									href='https://linkedin.com/in/nuriddinislamov'
 									target='_blank'
@@ -49,7 +49,7 @@ const Footer = () => {
 									<FontAwesomeIcon icon={faLinkedinIn} className='text-2xl' />
 								</a>
 							</li>
-							<li className='nav_item'>
+							<li className='ml-8'>
 								<a
 									href='https://blog.nuriddinislamov.com'
 									target='_blank'
@@ -61,7 +61,7 @@ const Footer = () => {
 						</ul>
 					) : (
 						<ul>
-							<li className='nav_item'>
+							<li className='ml-8'>
 								<a
 									href='https://github.com/nuriddinislamov'
 									target='_blank'
