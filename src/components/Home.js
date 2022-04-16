@@ -1,10 +1,11 @@
 import React from 'react';
 import Layout from '../layouts/Layout';
+import Maintenance from './Maintenance';
 
 const Home = () => {
 	return (
 		<Layout id='home'>
-			<div className=''>HOME</div>
+			<Maintenance />
 		</Layout>
 	);
 };
