@@ -9,7 +9,7 @@ function Layout({ children, id }) {
 				<NavBar />
 			</div>
 			<section
-				className='container flex-1 mx-auto h-full w-5/6 px-2 md:px-6 py-8'
+				className='container flex-1 h-full w-5/6 mx-auto px-2 md:px-6 py-8'
 				id={id}>
 				{children}
 			</section>
