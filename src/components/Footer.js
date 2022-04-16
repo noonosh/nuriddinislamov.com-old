@@ -1,7 +1,6 @@
 import React from 'react';
 import useWindowDimensions from '../windowDimensions';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import {
 	faGithub,
 	faTwitter,
@@ -26,7 +25,7 @@ const Footer = () => {
 								<a
 									href='https://github.com/nuriddinislamov'
 									target='_blank'
-									rel='noopener'
+									rel='noreferrer'
 									className='hover:text-sky-600'>
 									<FontAwesomeIcon icon={faGithub} className='text-2xl' />
 								</a>
@@ -35,7 +34,7 @@ const Footer = () => {
 								<a
 									href='https://twitter.com/nuriddinislamov'
 									target='_blank'
-									rel='noopener'
+									rel='noreferrer'
 									className='hover:text-sky-600'>
 									<FontAwesomeIcon icon={faTwitter} className='text-2xl' />
 								</a>
@@ -44,7 +43,7 @@ const Footer = () => {
 								<a
 									href='https://linkedin.com/in/nuriddinislamov'
 									target='_blank'
-									rel='noopener'
+									rel='noreferrer'
 									className='hover:text-sky-600'>
 									<FontAwesomeIcon icon={faLinkedinIn} className='text-2xl' />
 								</a>
@@ -53,7 +52,7 @@ const Footer = () => {
 								<a
 									href='https://blog.nuriddinislamov.com'
 									target='_blank'
-									rel='noopener'
+									rel='noreferrer'
 									className='hover:text-sky-600'>
 									<FontAwesomeIcon icon={faDev} className='text-2xl' />
 								</a>
@@ -65,7 +64,7 @@ const Footer = () => {
 								<a
 									href='https://github.com/nuriddinislamov'
 									target='_blank'
-									rel='noopener'
+									rel='noreferrer'
 									className='hover:text-sky-600'>
 									<FontAwesomeIcon icon={faGithub} className='text-2xl' />
 								</a>
