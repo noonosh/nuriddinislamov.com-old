@@ -1,12 +1,11 @@
 import React from 'react';
 import Home from './components/Home';
-// eslint-disable-next-line
 import About from './components/About';
-// eslint-disable-next-line
 import Work from './components/Work';
-// eslint-disable-next-line
 import Contact from './components/Contact.js';
+import NotFound from './components/NotFound';
 // import Maintenance from './components/Maintenance';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const App = () => {
 	return (
@@ -14,7 +13,15 @@ const App = () => {
 		// 	<Maintenance />
 		// </div>
 		<main>
-			<Home />
+			<BrowserRouter>
+				<Routes>
+					<Route path='/' element={<Home />} />
+					<Route path='/about' element={<About />} />
+					<Route path='/projects' element={<Work />} />
+					<Route path='/reach-out' element={<Contact />} />
+					<Route path='*' element={<NotFound />} />
+				</Routes>
+			</BrowserRouter>
 		</main>
 	);
 };
