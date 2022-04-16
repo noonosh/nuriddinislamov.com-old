@@ -1,7 +1,12 @@
 import React from 'react';
+import Layout from '../layouts/Layout';
 
 const Work = () => {
-	return <div>Work</div>;
+	return (
+		<Layout>
+			<div>WORK</div>
+		</Layout>
+	);
 };
 
 export default Work;
