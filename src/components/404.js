@@ -6,7 +6,7 @@ import { faSadCry } from '@fortawesome/free-solid-svg-icons';
 
 function NotFound() {
 	return (
-		<div className='flex flex-col h-screen '>
+		<div className='flex flex-col h-screen'>
 			<div className='flex-1 w-2/3 mx-auto text-center'>
 				<div className='flex flex-col h-full justify-center items-center'>
 					<h1 className='text-6xl font-black mb-8'>
