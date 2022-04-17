@@ -35,6 +35,38 @@ const Maintenance = () => {
 						GitHub 🚀
 					</a>
 				</p>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
+				<h1 className='text-lg md:text-4xl'>A BUG</h1>
 			</div>
 		</div>
 	);
