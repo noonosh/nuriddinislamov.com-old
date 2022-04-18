@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Navigation(props) {
 	const navClasses =
-		'border-2 border-gray-600 px-4 py-2 my-2 rounded hover:bg-gray-800 hover:border-gray-800 hover:text-white whitespace-nowrap text-xl font-bold';
+		'border-2 border-gray-600 px-3 py-1 my-2 rounded hover:bg-gray-800 hover:border-gray-800 hover:text-white whitespace-nowrap text-lg font-bold';
 
 	return (
 		<div className='h-20 flex flex-wrap-reverse justify-between items-center px-12 md:hidden'>
