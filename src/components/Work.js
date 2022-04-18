@@ -9,7 +9,7 @@ const Work = () => {
 				<div className='flex-auto'>WORK</div>
 				<Navigation
 					prev={{ name: 'about', path: '/me' }}
-					next={{ name: 'contact me', path: '/reach-out' }}
+					next={{ name: 'contact', path: '/reach-out' }}
 				/>
 			</div>
 		</Layout>
