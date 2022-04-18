@@ -5,11 +5,13 @@ import Navigation from './Navigation';
 const About = () => {
 	return (
 		<Layout id='about'>
-			<div>ABOUT PAGE</div>
-			<Navigation
-				prev={{ name: 'Home', path: '/' }}
-				next={{ name: 'Work', path: '/projects' }}
-			/>
+			<div className='flex flex-col h-full'>
+				<div className='flex-auto'>ABOUT PAGE</div>
+				<Navigation
+					prev={{ name: 'home', path: '/' }}
+					next={{ name: 'work', path: '/projects' }}
+				/>
+			</div>
 		</Layout>
 	);
 };
