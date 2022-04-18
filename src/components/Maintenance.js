@@ -6,16 +6,14 @@ const Bounce = styled.div`animation 2s ${keyframes`${pulse}`} infinite`;
 
 const Maintenance = () => {
 	return (
-		<div className='p-8 md:mt-4 self-center'>
-			<div className=''>
-				<h2 className='text-4xl md:text-5xl md:mb-6 mb-4 font-bold'>
-					I am{' '}
-					<Bounce className='inline-block'>
-						<span className='px-2'>working hard</span>
-					</Bounce>{' '}
-					to bring this site back to life...
-				</h2>
-			</div>
+		<div className='p-8 md:mt-4'>
+			<h2 className='text-4xl md:text-5xl md:mb-6 mb-4 font-bold'>
+				I am{' '}
+				<Bounce className='inline-block'>
+					<span className='px-2'>working hard</span>
+				</Bounce>{' '}
+				to bring this site back to life...
+			</h2>
 			<div>
 				<p className='text-lg md:text-2xl'>
 					For now, you can see my{' '}
