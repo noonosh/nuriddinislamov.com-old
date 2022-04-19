@@ -7,8 +7,10 @@ const Home = () => {
 	return (
 		<Layout id='home'>
 			<a
-				className='bg-red-600 absolute rotate-90 block -right-24 text-center top-20 bold font-bold text-sm text-white shadow-md py-1 px-24 z-20'
+				className='bg-red-600 absolute rotate-90 block -right-28 text-center top-20 bold font-bold text-sm text-white shadow-md py-1 px-24 z-20'
 				href='http://github.com/nuriddinislamov/nuriddinislamov.com'
+				target='_blank'
+				rel='noopener noreferrer'
 				id='github'>
 				Fork me on Github
 			</a>
