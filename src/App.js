@@ -1,8 +1,8 @@
 import React from 'react';
 import Home from './components/Home';
-// import About from './components/About';
-// import Work from './components/Work';
-// import Contact from './components/Contact.js';
+import About from './components/About';
+import Work from './components/Work';
+import Contact from './components/Contact.js';
 import NotFound from './components/404';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 

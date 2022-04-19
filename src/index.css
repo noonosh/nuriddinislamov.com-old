@@ -17,3 +17,7 @@
 		@apply focus:outline-none focus:ring-2 ring-offset-2 ring-slate-500;
 	}
 }
+
+#github {
+	clip-path: polygon(0% 0%, 75% 0%, 81% 51%, 75% 100%, 0% 100%);
+}
