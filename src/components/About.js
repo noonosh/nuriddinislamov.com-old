@@ -17,8 +17,8 @@ const About = () => {
 
 	return (
 		<Layout id='about'>
-			<div className='flex flex-col h-full prose prose-slate'>
-				<div className='flex-auto overflow-scroll'>
+			<div className='flex flex-col h-full'>
+				<div className='flex-auto overflow-scroll prose'>
 					<ReactMarkdown children={content} />
 				</div>
 
