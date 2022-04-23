@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import Layout from '../layouts/Layout';
 import Navigation from './Navigation';
 import ReactMarkdown from 'react-markdown';
-// import remarkGfm from 'remark-gfm';
+import remarkGfm from 'remark-gfm';
 import aboutPage from '../pages/about.md';
 
 const About = () => {
@@ -19,7 +19,7 @@ const About = () => {
 		<Layout id='about'>
 			<div className='flex flex-col h-full'>
 				<div className='flex-auto overflow-scroll prose'>
-					<ReactMarkdown children={content} />
+					<ReactMarkdown children={content} remarkPlugins={remarkGfm} />
 				</div>
 
 				<Navigation
