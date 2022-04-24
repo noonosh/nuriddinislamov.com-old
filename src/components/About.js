@@ -17,16 +17,14 @@ const About = () => {
 
 	return (
 		<Layout id='about'>
-			<div className='flex flex-col h-full'>
-				<div className='flex-auto overflow-scroll prose'>
-					<ReactMarkdown children={content} remarkPlugins={remarkGfm} />
-				</div>
-
-				<Navigation
-					prev={{ name: 'home', path: '/' }}
-					next={{ name: 'work', path: '/projects' }}
-				/>
+			<div className='prose'>
+				<ReactMarkdown children={content} remarkPlugins={remarkGfm} />
 			</div>
+
+			<Navigation
+				prev={{ name: 'home', path: '/' }}
+				next={{ name: 'work', path: '/projects' }}
+			/>
 		</Layout>
 	);
 };

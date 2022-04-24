@@ -25,15 +25,13 @@ const Home = () => {
 				id='github'>
 				Fork me on Github
 			</a>
-			<div className='flex flex-col h-full'>
-				<div className='flex-auto overflow-scroll prose'>
-					<ReactMarkdown children={content} remarkPlugins={remarkGfm} />
-				</div>
-				<Navigation
-					prev={{ name: '', path: '' }}
-					next={{ name: 'about', path: '/me' }}
-				/>
+			<div class='prose'>
+				<ReactMarkdown children={content} remarkPlugins={remarkGfm} />
 			</div>
+			<Navigation
+				prev={{ name: '', path: '' }}
+				next={{ name: 'about', path: '/me' }}
+			/>
 		</Layout>
 	);
 };
