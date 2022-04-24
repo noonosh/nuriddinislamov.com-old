@@ -6,7 +6,7 @@ I am a self-taught software engineer still discovering the uncovered edges of te
 
 ## Tech
 
-Built by [React](https://reactjs.org) ❤️ and hosted on [Vercel](https:/vercel.com).
+Built with [React](https://reactjs.org) ❤️ and hosted on [Vercel](https:/vercel.com).
 
 ## Try it
 
