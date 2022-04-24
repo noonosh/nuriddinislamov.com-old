@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import Layout from '../layouts/Layout';
 import Navigation from './Navigation';
+import Maintenance from './Maintenance';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import homePage from '../pages/home.md';
@@ -56,10 +57,11 @@ const Home = () => {
 				id='github'>
 				Fork me on Github
 			</a>
-			<h1 class='text-4xl font-light'>Home</h1>
+			<Maintenance />
+			{/* <h1 class='text-4xl font-light'>Home</h1>
 			<div class='text-2xl font-bold'>
 				<Clock />
-			</div>
+			</div> */}
 			{width >= 768 ? (
 				<div class='absolute bottom-1 left-0 -z-10 w-screen'>
 					<svg
