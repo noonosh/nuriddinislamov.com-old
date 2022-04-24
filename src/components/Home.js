@@ -1,9 +1,20 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 import Layout from '../layouts/Layout';
-import Maintenance from './Maintenance';
 import Navigation from './Navigation';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import homePage from '../pages/home.md';
 
 const Home = () => {
+	const [content, setContent] = useState('');
+
+	useEffect(() => {
+		fetch(homePage)
+			.then(res => res.text())
+			.then(text => setContent(text));
+	}, []);
+
 	return (
 		<Layout id='home'>
 			<a
@@ -15,8 +26,8 @@ const Home = () => {
 				Fork me on Github
 			</a>
 			<div className='flex flex-col h-full'>
-				<div className='flex-auto'>
-					<Maintenance />
+				<div className='flex-auto overflow-scroll prose'>
+					<ReactMarkdown children={content} remarkPlugins={remarkGfm} />
 				</div>
 				<Navigation
 					prev={{ name: '', path: '' }}
