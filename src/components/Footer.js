@@ -12,7 +12,7 @@ const Footer = () => {
 	const { width } = useWindowDimensions();
 
 	return (
-		<footer className='py-6 bg-slate-100 px-8'>
+		<footer className='py-6 bg-slate-100 px-8 mt-4 md:mt-12'>
 			<div className='flex justify-between text-center'>
 				<div className='text-center text-gray-500 font-light tracking-tight'>
 					© {new Date().getFullYear()} Nuriddin Islamov
@@ -26,7 +26,7 @@ const Footer = () => {
 									href='https://github.com/nuriddinislamov'
 									target='_blank'
 									rel='noreferrer'
-									className='hover:text-sky-600'>
+									className='hover:text-indigo-600'>
 									<FontAwesomeIcon icon={faGithub} className='text-2xl' />
 								</a>
 							</li>
@@ -35,7 +35,7 @@ const Footer = () => {
 									href='https://twitter.com/nuriddinislamov'
 									target='_blank'
 									rel='noreferrer'
-									className='hover:text-sky-600'>
+									className='hover:text-indigo-600'>
 									<FontAwesomeIcon icon={faTwitter} className='text-2xl' />
 								</a>
 							</li>
@@ -44,7 +44,7 @@ const Footer = () => {
 									href='https://linkedin.com/in/nuriddinislamov'
 									target='_blank'
 									rel='noreferrer'
-									className='hover:text-sky-600'>
+									className='hover:text-indigo-600'>
 									<FontAwesomeIcon icon={faLinkedinIn} className='text-2xl' />
 								</a>
 							</li>
@@ -53,7 +53,7 @@ const Footer = () => {
 									href='https://blog.nuriddinislamov.com'
 									target='_blank'
 									rel='noreferrer'
-									className='hover:text-sky-600'>
+									className='hover:text-indigo-600'>
 									<FontAwesomeIcon icon={faDev} className='text-2xl' />
 								</a>
 							</li>
@@ -65,7 +65,7 @@ const Footer = () => {
 									href='https://github.com/nuriddinislamov'
 									target='_blank'
 									rel='noreferrer'
-									className='hover:text-sky-600'>
+									className='hover:text-indigo-600'>
 									<FontAwesomeIcon icon={faGithub} className='text-2xl' />
 								</a>
 							</li>
