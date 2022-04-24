@@ -11,7 +11,7 @@
 		@apply hover:underline text-sky-500;
 	}
 	.nav_item {
-		@apply hover:drop-shadow-md ml-8 text-gray-900 hover:underline underline-offset-1;
+		@apply ml-8 text-gray-900 hover:underline underline-offset-1;
 	}
 	.clickable {
 		@apply focus:outline-none focus:ring-2 ring-offset-2 ring-slate-500;
