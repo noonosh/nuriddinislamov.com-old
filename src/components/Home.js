@@ -5,7 +5,7 @@ import Navigation from './Navigation';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import homePage from '../pages/home.md';
-import useWindowDimensions from '../windowDimensions';
+import useWindowDimensions from '../lib/windowDimensions';
 
 class Clock extends React.Component {
 	constructor(props) {

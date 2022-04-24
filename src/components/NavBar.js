@@ -1,5 +1,5 @@
 import React from 'react';
-import useWindowDimensions from '../windowDimensions';
+import useWindowDimensions from '../lib/windowDimensions';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import useWindowDimensions from '../windowDimensions';
+import useWindowDimensions from '../lib/windowDimensions';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
 	faGithub,
