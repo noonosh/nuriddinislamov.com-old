@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '../layouts/Layout';
-import Navigation from './Navigation';
 import useWindowDimensions from '../lib/windowDimensions';
 import helloImage from '../assets/hello.jpeg';
 
