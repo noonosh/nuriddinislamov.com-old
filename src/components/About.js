@@ -33,17 +33,31 @@ const About = () => {
 						</figcaption>
 
 						{width >= 768 ? (
-							<div className='mt-8 px-4'>
-								<h3 className='text-xl font-bold'>Read more</h3>
+							<div className='mt-12 mx-4'>
+								<h3 className='text-3xl font-extrabold mb-3 border-b pb-1'>
+									Read more
+								</h3>
 								<ul>
-									<li>
-										<a href='/'>Some hyperlinks</a>
+									<li className='py-1 font-semibold text-lg'>
+										<a
+											href='/'
+											className='hover:underline-offset-2 hover:underline'>
+											Some hyperlinks
+										</a>
 									</li>
-									<li>
-										<a href='/'>Some hyperlinks</a>
+									<li className='py-1 font-semibold text-lg'>
+										<a
+											href='/'
+											className='hover:underline-offset-2 hover:underline'>
+											Some hyperlinks
+										</a>
 									</li>
-									<li>
-										<a href='/'>Some hyperlinks</a>
+									<li className='py-1 font-semibold text-lg'>
+										<a
+											href='/'
+											className='hover:underline-offset-2 hover:underline'>
+											Some hyperlinks
+										</a>
 									</li>
 								</ul>
 							</div>
