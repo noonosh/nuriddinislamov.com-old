@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../layouts/Layout';
 import useWindowDimensions from '../lib/windowDimensions';
 import helloImage from '../assets/hello.jpeg';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 	const { width } = useWindowDimensions();
@@ -32,11 +33,11 @@ const Home = () => {
 							Junior Software Engineer working in JavaScript and playing aroung
 							with React and a little more.
 						</p>
-						<a
+						<Link
 							href='/me'
 							className='hover:text-sky-500 hover:underline hover:underline-offset-1 hover:transition-colors duration-200 font-light'>
 							Continue reading &rarr;
-						</a>
+						</Link>
 					</div>
 				</div>
 				{width >= 768 ? (
