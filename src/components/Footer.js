@@ -5,8 +5,8 @@ import {
 	faGithub,
 	faTwitter,
 	faLinkedinIn,
-	faDev,
 } from '@fortawesome/free-brands-svg-icons';
+import { faPencil } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
 	const { width } = useWindowDimensions();
@@ -26,7 +26,7 @@ const Footer = () => {
 									href='https://github.com/nuriddinislamov'
 									target='_blank'
 									rel='noreferrer'
-									className='hover:text-indigo-600'>
+									className='hover:text-gray-600'>
 									<FontAwesomeIcon icon={faGithub} className='text-2xl' />
 								</a>
 							</li>
@@ -35,7 +35,7 @@ const Footer = () => {
 									href='https://twitter.com/nuriddinislamov'
 									target='_blank'
 									rel='noreferrer'
-									className='hover:text-indigo-600'>
+									className='hover:text-sky-500'>
 									<FontAwesomeIcon icon={faTwitter} className='text-2xl' />
 								</a>
 							</li>
@@ -44,7 +44,7 @@ const Footer = () => {
 									href='https://linkedin.com/in/nuriddinislamov'
 									target='_blank'
 									rel='noreferrer'
-									className='hover:text-indigo-600'>
+									className='hover:text-sky-700'>
 									<FontAwesomeIcon icon={faLinkedinIn} className='text-2xl' />
 								</a>
 							</li>
@@ -53,8 +53,8 @@ const Footer = () => {
 									href='https://blog.nuriddinislamov.com'
 									target='_blank'
 									rel='noreferrer'
-									className='hover:text-indigo-600'>
-									<FontAwesomeIcon icon={faDev} className='text-2xl' />
+									className='hover:text-sky-600'>
+									<FontAwesomeIcon icon={faPencil} className='text-2xl' />
 								</a>
 							</li>
 						</ul>
@@ -65,7 +65,7 @@ const Footer = () => {
 									href='https://github.com/nuriddinislamov'
 									target='_blank'
 									rel='noreferrer'
-									className='hover:text-indigo-600'>
+									className='hover:text-sky-600'>
 									<FontAwesomeIcon icon={faGithub} className='text-2xl' />
 								</a>
 							</li>
