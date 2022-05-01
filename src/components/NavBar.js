@@ -6,7 +6,7 @@ const NavBar = () => {
 	const { width } = useWindowDimensions();
 
 	return (
-		<header className='sticky top-0 z-30'>
+		<header className='md:sticky top-0 z-30'>
 			<nav className='pt-6 md:pt-8 px-24 bg-white w-full bg-opacity-90 backdrop-blur-md'>
 				<div className='flex flex-col items-center md:flex-row md:justify-between border-b pb-8'>
 					<div className='text-center md:text-left'>
