@@ -1,38 +1,27 @@
-# Who the heck am I?
+# Who the heck actually am I?
 
-```javascript
-function doIt() {
-	let me = 0;
-	let applesCount = [4, 5, 6, 7, 8, 9];
+### **To keep it very short, I am a eighteen year old boy immigrated to the United Kingdom, pursuing Bachelor's and looking for the best opportunities in the tech world – that's who I am.**
 
-	applesCount.forEach(i => {
-		console.log(i);
-	});
-}
-```
+Sit et labore duis est est magna dolor irure proident tempor minim. Cupidatat mollit exercitation nulla ea est exercitation laborum quis. Eu reprehenderit sunt velit veniam adipisicing non incididunt pariatur. Ut cillum esse commodo tempor labore. Dolor deserunt qui aliquip elit do.
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=nuriddinislamov&theme=merko&hide_border=true)](https://git.io/streak-stats)
+Est amet esse adipisicing excepteur quis incididunt labore laborum ut est esse. Veniam et qui deserunt non anim. Aliquip cupidatat enim in laboris nulla ad aliquip labore deserunt eiusmod Lorem duis. Irure elit laboris sint laborum occaecat sint nisi. Commodo proident sint tempor nostrud aute anim elit ea amet eiusmod do ex. Veniam anim do irure reprehenderit aliqua qui non cillum est esse cillum et ipsum. Ex officia minim ut nisi ipsum ipsum reprehenderit voluptate.
 
-## Followed by an h2 heading
+Aliquip velit sit laboris duis nostrud ullamco cillum ad laborum. Reprehenderit nisi consequat culpa exercitation. Commodo proident eu labore dolor excepteur non irure aute aliqua amet nostrud pariatur. Adipisicing veniam elit mollit eiusmod laboris id veniam fugiat reprehenderit proident consequat. Tempor irure velit mollit qui aliqua id adipisicing reprehenderit eu consectetur duis laborum et nostrud. Aliqua dolor qui officia irure elit mollit qui.
 
-Culpa dolor ~occaecat~ laboris ad. Esse velit excepteur id cupidatat consectetur aliquip tempor excepteur. Labore sunt veniam laborum laborum consequat eu voluptate dolor tempor quis cillum minim veniam officia. Velit amet laboris magna irure adipisicing ex ut et mollit in. Amet mollit quis dolore velit et. Minim fugiat aute pariatur elit magna ea laborum aliqua velit cupidatat velit culpa deserunt.
+Sit et labore duis est est magna dolor irure proident tempor minim. Cupidatat mollit exercitation nulla ea est exercitation laborum quis. Eu reprehenderit sunt velit veniam adipisicing non incididunt pariatur. Ut cillum esse commodo tempor labore. Dolor deserunt qui aliquip elit do.
 
-Irure ut excepteur magna excepteur esse. Qui ullamco quis do non magna ullamco ipsum in commodo laboris. Qui dolor id proident ea consequat consectetur qui culpa nisi.
+Est amet esse adipisicing excepteur quis incididunt labore laborum ut est esse. Veniam et qui deserunt non anim. Aliquip cupidatat enim in laboris nulla ad aliquip labore deserunt eiusmod Lorem duis. Irure elit laboris sint laborum occaecat sint nisi. Commodo proident sint tempor nostrud aute anim elit ea amet eiusmod do ex. Veniam anim do irure reprehenderit aliqua qui non cillum est esse cillum et ipsum. Ex officia minim ut nisi ipsum ipsum reprehenderit voluptate.
 
-### h3 heading here
+Aliquip velit sit laboris duis nostrud ullamco cillum ad laborum. Reprehenderit nisi consequat culpa exercitation. Commodo proident eu labore dolor excepteur non irure aute aliqua amet nostrud pariatur. Adipisicing veniam elit mollit eiusmod laboris id veniam fugiat reprehenderit proident consequat. Tempor irure velit mollit qui aliqua id adipisicing reprehenderit eu consectetur duis laborum et nostrud. Aliqua dolor qui officia irure elit mollit qui.
+Sit et labore duis est est magna dolor irure proident tempor minim. Cupidatat mollit exercitation nulla ea est exercitation laborum quis. Eu reprehenderit sunt velit veniam adipisicing non incididunt pariatur. Ut cillum esse commodo tempor labore. Dolor deserunt qui aliquip elit do.
 
-Id elit eiusmod eu elit in sunt enim consectetur mollit commodo officia exercitation enim sint. Pariatur officia nostrud non aliquip cillum velit culpa fugiat labore officia Lorem ad in. Culpa aliqua incididunt excepteur non sint do culpa. Laborum et proident elit duis laboris magna occaecat sit ipsum officia proident ex. Irure sunt labore ipsum incididunt. Eiusmod non enim proident exercitation sit consectetur incididunt in non non do eiusmod.
+## Some heading
 
-### h3 heading here
+Est amet esse adipisicing excepteur quis incididunt labore laborum ut est esse. Veniam et qui deserunt non anim. Aliquip cupidatat enim in laboris nulla ad aliquip labore deserunt eiusmod Lorem duis. Irure elit laboris sint laborum occaecat sint nisi. Commodo proident sint tempor nostrud aute anim elit ea amet eiusmod do ex. Veniam anim do irure reprehenderit aliqua qui non cillum est esse cillum et ipsum. Ex officia minim ut nisi ipsum ipsum reprehenderit voluptate.
 
-Elit sit tempor exercitation cupidatat consequat nostrud dolor est proident minim aliqua. Ad do est eiusmod nulla deserunt labore non ut id Lorem. Non culpa sunt commodo nisi ullamco ea ipsum. Proident ad exercitation ad amet sit veniam exercitation ullamco deserunt duis.
+Aliquip velit sit laboris duis nostrud ullamco cillum ad laborum. Reprehenderit nisi consequat culpa exercitation. Commodo proident eu labore dolor excepteur non irure aute aliqua amet nostrud pariatur. Adipisicing veniam elit mollit eiusmod laboris id veniam fugiat reprehenderit proident consequat. Tempor irure velit mollit qui aliqua id adipisicing reprehenderit eu consectetur duis laborum et nostrud. Aliqua dolor qui officia irure elit mollit qui.
+Sit et labore duis est est magna dolor irure proident tempor minim. Cupidatat mollit exercitation nulla ea est exercitation laborum quis. Eu reprehenderit sunt velit veniam adipisicing non incididunt pariatur. Ut cillum esse commodo tempor labore. Dolor deserunt qui aliquip elit do.
 
-### h3 heading here
+Est amet esse adipisicing excepteur quis incididunt labore laborum ut est esse. Veniam et qui deserunt non anim. Aliquip cupidatat enim in laboris nulla ad aliquip labore deserunt eiusmod Lorem duis. Irure elit laboris sint laborum occaecat sint nisi. Commodo proident sint tempor nostrud aute anim elit ea amet eiusmod do ex. Veniam anim do irure reprehenderit aliqua qui non cillum est esse cillum et ipsum. Ex officia minim ut nisi ipsum ipsum reprehenderit voluptate.
 
-Tempor consequat quis in excepteur ex aute veniam officia veniam commodo dolore. Sint est ex magna proident cillum duis sint proident. Sunt reprehenderit ea nulla pariatur aute. Eiusmod esse anim esse id id magna excepteur duis consequat. Dolor fugiat quis culpa laboris exercitation pariatur.
-
-**BOLD TEXT**
-
-| Column 1     | Column 2 | Three | Eight minus four |
-| ------------ | :------- | ----: | :--------------: |
-| write a word | weite    |   let |       cmon       |
+Aliquip velit sit laboris duis nostrud ullamco cillum ad laborum. Reprehenderit nisi consequat culpa exercitation. Commodo proident eu labore dolor excepteur non irure aute aliqua amet nostrud pariatur. Adipisicing veniam elit mollit eiusmod laboris id veniam fugiat reprehenderit proident consequat. Tempor irure velit mollit qui aliqua id adipisicing reprehenderit eu consectetur duis laborum et nostrud. Aliqua dolor qui officia irure elit mollit qui.
