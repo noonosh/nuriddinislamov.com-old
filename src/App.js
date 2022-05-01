@@ -8,13 +8,13 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const App = () => {
 	return (
-		<main className='text-gray-900 select-none min-w-screen'>
+		<main className='text-gray-900 select-none'>
 			<BrowserRouter>
 				<Routes>
 					<Route path='/' element={<Home />} />
-					{/* <Route path='/me' element={<About />} />
+					<Route path='/me' element={<About />} />
 					<Route path='/projects' element={<Work />} />
-					<Route path='/reach-out' element={<Contact />} /> */}
+					<Route path='/reach-out' element={<Contact />} />
 					<Route path='*' element={<NotFound />} />
 				</Routes>
 			</BrowserRouter>
