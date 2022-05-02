@@ -11,7 +11,7 @@ const NavBar = () => {
 				<div className='flex flex-col items-center md:flex-row md:justify-between border-b pb-8'>
 					<div className='text-center md:text-left'>
 						<h1 className='font-extrabold text-2xl md:text-4xl md:self-center md:mb-0 inline-block hover:text-slate-700 hover:transition-colors ease-in-out duration-300'>
-							<Link to='/'>
+							<Link to='/' className='link'>
 								{width >= 768 ? 'Nuriddin Islamov' : 'Nuriddin'}
 							</Link>
 						</h1>
@@ -22,13 +22,19 @@ const NavBar = () => {
 
 					<ul className='md:flex text-lg font-medium hidden whitespace-nowrap'>
 						<li className='nav_item'>
-							<Link to='/me'>me</Link>
+							<Link className='link' to='/me'>
+								me
+							</Link>
 						</li>
 						<li className='nav_item'>
-							<Link to='/projects'>projects</Link>
+							<Link className='link' to='/projects'>
+								projects
+							</Link>
 						</li>
 						<li className='nav_item'>
-							<Link to='/reach-out'>get in touch</Link>
+							<Link className='link' to='/reach-out'>
+								get in touch
+							</Link>
 						</li>
 					</ul>
 				</div>
