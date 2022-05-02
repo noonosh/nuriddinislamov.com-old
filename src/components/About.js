@@ -25,7 +25,7 @@ const About = () => {
 					<div className='my-2 md:order-3 justify-self-center'>
 						<img
 							src={profileImage}
-							className='w-72 md:w-96 rounded-xl md:rounded-full'
+							className='w-64 md:w-96 rounded-xl md:rounded-full'
 							alt='Profile'
 						/>
 						<figcaption className='block text-gray-500 italic py-4 text-center'>
@@ -64,8 +64,16 @@ const About = () => {
 						) : null}
 					</div>
 
-					<div className='prose md:col-span-2 pr-6'>
+					<div className='prose md:col-span-2 pr-4'>
 						<ReactMarkdown children={content} remarkPlugins={[remarkGfm]} />
+						{/* <iframe
+							className='w-4/6 px-2'
+							height='315'
+							src='https://www.youtube.com/embed/Ylrm24MsqkY'
+							title='YouTube video player'
+							frameborder='0'
+							allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+							allowfullscreen></iframe> */}
 					</div>
 				</div>
 
