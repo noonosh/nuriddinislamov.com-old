@@ -30,7 +30,7 @@ const Home = () => {
 							Greets from Nuriddin!
 						</h2>
 						<p className='text-xl mb-3'>
-							Junior Software Engineer working in JavaScript and playing aroung
+							Junior Software Engineer working in JavaScript and playing around
 							with React and a little more.
 						</p>
 						<Link
