@@ -34,7 +34,7 @@ const Home = () => {
 							with React and a little more.
 						</p>
 						<Link
-							href='/me'
+							to='/me'
 							className='hover:text-sky-500 hover:underline hover:underline-offset-1 hover:transition-colors duration-200 font-light'>
 							Continue reading &rarr;
 						</Link>
