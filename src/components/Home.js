@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Layout from '../layouts/Layout';
 import useWindowDimensions from '../lib/windowDimensions';
 import helloImage from '../assets/hello.jpeg';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Home = () => {
 	const { width } = useWindowDimensions();
+
+	useEffect(() => {
+		AOS.init({
+			duration: 1500,
+		});
+	}, []);
 
 	return (
 		<Layout id='home' isHome={true}>
@@ -19,7 +27,9 @@ const Home = () => {
 			</a>
 
 			<div className='flex flex-col h-full items-center justify-between md:justify-center'>
-				<div className='grid grid-flow-row mb-16 md:grid-cols-2 gap-8 items-center justify-items-center md:justify-items-start p-4'>
+				<div
+					data-aos='fade-in'
+					className='grid grid-flow-row mb-16 md:grid-cols-2 gap-8 items-center justify-items-center md:justify-items-start p-4'>
 					<img
 						src={helloImage}
 						alt='Nuriddin waving memoji'
