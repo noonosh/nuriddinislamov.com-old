@@ -19,7 +19,7 @@ const Home = () => {
 			</a>
 
 			<div className='flex flex-col h-full items-center justify-between md:justify-center'>
-				<div className='grid grid-flow-row mb-8 md:grid-cols-2 gap-8 items-center justify-items-center md:justify-items-start p-4'>
+				<div className='grid grid-flow-row mb-16 md:grid-cols-2 gap-8 items-center justify-items-center md:justify-items-start p-4'>
 					<img
 						src={helloImage}
 						alt='Nuriddin waving memoji'
@@ -35,7 +35,7 @@ const Home = () => {
 						</p>
 						<Link
 							to='/me'
-							className='link hover:text-sky-500 hover:underline hover:underline-offset-1 hover:transition-colors duration-200 font-light'>
+							className='link text-2xl mt-6 md:mt-0 md:text-base inline-block hover:text-sky-500 hover:underline hover:underline-offset-1 hover:transition-colors duration-200 font-light'>
 							Continue reading &rarr;
 						</Link>
 					</div>
