@@ -1,38 +1,63 @@
-# Who the heck am I?
+# Who the heck actually am I?
 
-```javascript
-function doIt() {
-	let me = 0;
-	let applesCount = [4, 5, 6, 7, 8, 9];
+> _To keep it very short I am an eighteen-year old youngster immigrated to the UK, pursuing Bachelor’s in CS and looking for an opportunity in tech – that’s who I am._
 
-	applesCount.forEach(i => {
-		console.log(i);
-	});
-}
-```
+## A little back
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=nuriddinislamov&theme=merko&hide_border=true)](https://git.io/streak-stats)
+Around 5 years ago, I started living. Sounds strange, right? Keep reading and I will tell you my story. (This page’s content is **to be updated regularly** in the next couple of weeks, so consider checking back in a while).
 
-## Followed by an h2 heading
+## Tech that I live with
 
-Culpa dolor ~occaecat~ laboris ad. Esse velit excepteur id cupidatat consectetur aliquip tempor excepteur. Labore sunt veniam laborum laborum consequat eu voluptate dolor tempor quis cillum minim veniam officia. Velit amet laboris magna irure adipisicing ex ut et mollit in. Amet mollit quis dolore velit et. Minim fugiat aute pariatur elit magna ea laborum aliqua velit cupidatat velit culpa deserunt.
+Currently living the best of my life with **JS** and **React**, however there is some more:
 
-Irure ut excepteur magna excepteur esse. Qui ullamco quis do non magna ullamco ipsum in commodo laboris. Qui dolor id proident ea consequat consectetur qui culpa nisi.
+- Python, Numpy, Pandas, Django, DRF
+- PostgreSQL, MySQL, Mongo
+- Swift, C, Java - still discovering the edges
+- TailwindCSS, NextJS, Express
+- AWS, Docker, DigitalOcean (frequent user)
+- Postman, Notion
 
-### h3 heading here
+## Experience
 
-Id elit eiusmod eu elit in sunt enim consectetur mollit commodo officia exercitation enim sint. Pariatur officia nostrud non aliquip cillum velit culpa fugiat labore officia Lorem ad in. Culpa aliqua incididunt excepteur non sint do culpa. Laborum et proident elit duis laboris magna occaecat sit ipsum officia proident ex. Irure sunt labore ipsum incididunt. Eiusmod non enim proident exercitation sit consectetur incididunt in non non do eiusmod.
+I started my journey in summer 2020 with [KhanAcademy.org](https://KhanAcademy.org) particularly with JavaScript course. Although nothing was clear by that time, I am very grateful to [Tehnikum.school](https://Tehnikum.school) for taking me into the world of software. In late 2020, I took a Python course. This was the start.
 
-### h3 heading here
+Today, I have developed and deployed 20+ automated commercial Telegram bots for companies.
 
-Elit sit tempor exercitation cupidatat consequat nostrud dolor est proident minim aliqua. Ad do est eiusmod nulla deserunt labore non ut id Lorem. Non culpa sunt commodo nisi ullamco ea ipsum. Proident ad exercitation ad amet sit veniam exercitation ullamco deserunt duis.
+## January 2021
 
-### h3 heading here
+### **Technical Support Specialist**
 
-Tempor consequat quis in excepteur ex aute veniam officia veniam commodo dolore. Sint est ex magna proident cillum duis sint proident. Sunt reprehenderit ea nulla pariatur aute. Eiusmod esse anim esse id id magna excepteur duis consequat. Dolor fugiat quis culpa laboris exercitation pariatur.
+**Bellissimo Pizza Intl. – Tashkent, Uzbekistan**
 
-**BOLD TEXT**
+- Installed and maintained the company’s private application in 12 locations around the city
+- Provided personalized assistance to office staff with network and software issues
+- Handled daily 20+ phone calls to support colleagues remotely via AnyDesk
 
-| Column 1     | Column 2 | Three | Eight minus four |
-| ------------ | :------- | ----: | :--------------: |
-| write a word | weite    |   let |       cmon       |
+## Spring 2021
+
+### Sales and Marketing Specialist
+
+**ALI-NURMEDIA advertising agency – Tashkent, Uzbekistan**
+
+- Built a solid and influential keynote presentation to attract potential clients giving the company reach its acquisition rate a week earlier deadline
+- Managed to run social media campaign attracting hundreds of new followers simultaneously on different platforms
+- Frequently helped other departments, including the bookkeeper, with the online banking platform, thus accelerating the company's transaction speeds
+
+## Summer 2021
+
+### Software Engineer
+
+**ez-developers – Tashkent, Uzbekistan**
+
+- Tbh, it was my idea for this startup with my fellas. Credits to Co-F. [Jay Khans](https://github.com/jaykhans/).
+- Completed the set up of the team’s local Ubuntu server for everyday access to project files and assured the network and disk read-and-write load stability
+- Built RESTful backend API with Django Rest Framework
+- Refactored Python code to allow faster asynchronous CRUD operations with database
+
+## Achievements
+
+Oh, let me check my archive. I will post all once I find my certificates...
+
+## Reach me out
+
+Wondering talking to me? Go to [contact page](/reach-out), or leave an email at nuriddinislamov@icloud.com. However, Linkedin [messages](https://www.linkedin.com/in/nuriddinislamov) are open. Follow my [tweets](https://twitter.com/nuriddinislamov) and fork some of my [repos](https://github.com/nuriddinislamov).

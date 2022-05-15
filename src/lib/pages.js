@@ -1,1 +1,0 @@
-function processPageContents(pathToFile) {}

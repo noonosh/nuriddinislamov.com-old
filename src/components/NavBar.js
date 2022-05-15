@@ -6,12 +6,12 @@ const NavBar = () => {
 	const { width } = useWindowDimensions();
 
 	return (
-		<header className='sticky top-0 z-10'>
+		<header className='md:sticky top-0 z-30'>
 			<nav className='pt-6 md:pt-8 px-24 bg-white w-full bg-opacity-90 backdrop-blur-md'>
 				<div className='flex flex-col items-center md:flex-row md:justify-between border-b pb-8'>
 					<div className='text-center md:text-left'>
-						<h1 className='font-extrabold text-2xl md:text-4xl md:self-center md:mb-0 inline-block hover:text-indigo-600 hover:transition-colors ease-in-out duration-300'>
-							<Link to='/'>
+						<h1 className='font-extrabold text-2xl md:text-4xl md:self-center md:mb-0 inline-block'>
+							<Link to='/' className='link'>
 								{width >= 768 ? 'Nuriddin Islamov' : 'Nuriddin'}
 							</Link>
 						</h1>
@@ -22,13 +22,19 @@ const NavBar = () => {
 
 					<ul className='md:flex text-lg font-medium hidden whitespace-nowrap'>
 						<li className='nav_item'>
-							<Link to='/me'>me</Link>
+							<Link className='link' to='/me'>
+								me
+							</Link>
 						</li>
+						{/* <li className='nav_item'>
+							<Link className='link' to='/projects'>
+								projects
+							</Link>
+						</li> */}
 						<li className='nav_item'>
-							<Link to='/projects'>projects</Link>
-						</li>
-						<li className='nav_item'>
-							<Link to='/reach-out'>get in touch</Link>
+							<Link className='link' to='/reach-out'>
+								get in touch
+							</Link>
 						</li>
 					</ul>
 				</div>
