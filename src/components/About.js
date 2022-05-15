@@ -58,7 +58,7 @@ const About = () => {
 									</li>
 									<li className='py-1 font-semibold text-lg'>
 										<a
-											href='/'
+											href='https://youtu.be/1ZYbU82GVz4'
 											className='hover:underline-offset-1 hover:underline'
 											target='_blank'
 											rel='noopener noreferrer'>
