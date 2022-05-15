@@ -35,28 +35,34 @@ const About = () => {
 						{width >= 768 ? (
 							<div className='mt-12 mx-4'>
 								<h3 className='text-3xl font-extrabold mb-3 border-b pb-1'>
-									Read more
+									Useful links
 								</h3>
 								<ul>
 									<li className='py-1 font-semibold text-lg'>
 										<a
-											href='/'
-											className='hover:underline-offset-2 hover:underline'>
-											Some hyperlinks
+											href='https://twitter.com/nuriddinislamov/status/1372207791121793026'
+											className='hover:underline-offset-1 hover:underline'
+											target='_blank'
+											rel='noopener noreferrer'>
+											My very first tweet
+										</a>
+									</li>
+									<li className='py-1 font-semibold text-lg'>
+										<a
+											href='https://i.pinimg.com/564x/e6/6e/4e/e66e4e9d80f1ce15a0d3674f3ff25b49.jpg'
+											className='hover:underline-offset-1 hover:underline'
+											target='_blank'
+											rel='noopener noreferrer'>
+											Aesthetic desk setup
 										</a>
 									</li>
 									<li className='py-1 font-semibold text-lg'>
 										<a
 											href='/'
-											className='hover:underline-offset-2 hover:underline'>
-											Some hyperlinks
-										</a>
-									</li>
-									<li className='py-1 font-semibold text-lg'>
-										<a
-											href='/'
-											className='hover:underline-offset-2 hover:underline'>
-											Some hyperlinks
+											className='hover:underline-offset-1 hover:underline'
+											target='_blank'
+											rel='noopener noreferrer'>
+											Relaxing music
 										</a>
 									</li>
 								</ul>
