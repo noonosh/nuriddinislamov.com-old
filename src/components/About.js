@@ -85,7 +85,7 @@ const About = () => {
 
 				<Navigation
 					prev={{ name: 'home', path: '/' }}
-					next={{ name: 'work', path: '/projects' }}
+					next={{ name: 'contact', path: '/reach-out' }}
 				/>
 			</div>
 		</Layout>

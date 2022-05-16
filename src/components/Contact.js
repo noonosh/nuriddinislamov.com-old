@@ -142,7 +142,7 @@ const Contact = () => {
 				</div>
 
 				<Navigation
-					prev={{ name: 'work', path: '/projects' }}
+					prev={{ name: 'about', path: '/me' }}
 					next={{ name: 'home', path: '/' }}
 				/>
 			</div>
