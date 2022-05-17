@@ -56,13 +56,20 @@ Today, I have developed and deployed 20+ automated commercial Telegram bots for 
 
 ## Achievements
 
-Oh, let me check my archive. I will post all once I find my certificates.
-
-Have a look at these for now:
+Oh, let me check my archive. I will post them all once I find my certificates.
 
 ### TestDome
 
 - [HTML/CSS](https://app.testdome.com/cert/b534e5d8bb2e4a9b9b6587dddf9d695a)
+- [Python](https://app.testdome.com/cert/7880e07ace11462e83425499404694bd)
+
+### Typing Dot Com
+
+- [Advanced Typing Assessment – 3 minute](https://www.typing.com/student/verify#200412442-115197262)
+
+### Udacity
+
+- Full Stack Development Track – Credential ID **NFZGZALW**
 
 ## Reach me out
 
