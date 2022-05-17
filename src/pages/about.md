@@ -56,7 +56,13 @@ Today, I have developed and deployed 20+ automated commercial Telegram bots for 
 
 ## Achievements
 
-Oh, let me check my archive. I will post all once I find my certificates...
+Oh, let me check my archive. I will post all once I find my certificates.
+
+Have a look at these for now:
+
+### TestDome
+
+- [HTML/CSS](https://app.testdome.com/cert/b534e5d8bb2e4a9b9b6587dddf9d695a)
 
 ## Reach me out
 

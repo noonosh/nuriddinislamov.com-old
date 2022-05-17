@@ -72,14 +72,16 @@ const About = () => {
 
 					<div className='prose md:col-span-2 pr-4'>
 						<ReactMarkdown children={content} remarkPlugins={[remarkGfm]} />
-						{/* <iframe
-							className='w-4/6 px-2'
-							height='315'
-							src='https://www.youtube.com/embed/Ylrm24MsqkY'
-							title='YouTube video player'
-							frameborder='0'
-							allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-							allowfullscreen></iframe> */}
+						<h3 className='font-bold text-2xl mb-6'>YouTube</h3>
+						<div className='container px-2'>
+							<iframe
+								className='w-full h-[400px]'
+								src='https://www.youtube.com/embed/Ylrm24MsqkY'
+								title='YouTube video player'
+								frameborder='0'
+								allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+								allowfullscreen></iframe>
+						</div>
 					</div>
 				</div>
 
