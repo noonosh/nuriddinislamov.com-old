@@ -135,7 +135,7 @@ const Contact = () => {
 							<input
 								type='submit'
 								name='submit'
-								className='font-bold block mt-6 mx-6 w-24 md:w-64 rounded-xl py-2 text-center border-2 border-gray-800 hover:text-white hover:bg-gray-800 hover:cursor-pointer'
+								className='font-bold block mt-6 w-36 md:w-64 rounded-full py-2 text-center border-2 border-gray-800 hover:text-white hover:bg-gray-800 hover:cursor-pointer'
 							/>
 						</form>
 					</div>
