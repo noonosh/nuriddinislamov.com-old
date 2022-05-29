@@ -19,7 +19,7 @@ const Footer = props => {
 		<footer className='py-6 bg-slate-100 px-8 mt-4 md:mt-12'>
 			<div className='flex justify-between text-center'>
 				<div className='text-center text-gray-500 font-light tracking-tight'>
-					© {new Date().getFullYear()} Nuriddin Islamov
+					© {new Date().getFullYear()} Nuriddin&nbsp;Islamov
 				</div>
 
 				<div className=''>
