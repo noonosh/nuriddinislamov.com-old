@@ -37,11 +37,11 @@ const Home = () => {
 					/>
 					<div className='text-left'>
 						<h2 className='font-extrabold text-5xl mb-3'>
-							Greets from Nuriddin!
+							Salut, I say to you
 						</h2>
 						<p className='text-xl mb-3'>
-							Junior Software Engineer working in JavaScript and playing around
-							with React and a little more.
+							Welcome to my corner of the world. I am a young software engineer
+							working in Python and JavaScript. Moreover...
 						</p>
 						<Link
 							to='/me'
