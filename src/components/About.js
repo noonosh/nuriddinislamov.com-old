@@ -41,7 +41,16 @@ const About = () => {
 						</figcaption>
 
 						{width >= 768 ? (
-							<div className='mt-12 mx-4'>
+							<div className='mb-12 mx-4'>
+								<div className='mb-16 mt-4 flex justify-center items-center'>
+									<Link
+										to='/files/CV_nuriddinislamov.pdf'
+										download
+										target='_blank'
+										className='px-4 py-2 inline-block font-bold border-2 solid border-gray-800 rounded-xl hover:bg-gray-800 hover:text-white hover:after:underline hover:after:underline-offset-1'>
+										<span className='inline-block'>Download</span> my Résumé
+									</Link>
+								</div>
 								<h3 className='text-3xl font-extrabold mb-3 border-b pb-1'>
 									Useful links
 								</h3>
