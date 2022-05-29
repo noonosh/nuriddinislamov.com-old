@@ -7,6 +7,7 @@ import Navigation from './Navigation';
 // import remarkGfm from 'remark-gfm';
 // import aboutPage from '../pages/about.md';
 import profileImage from '../assets/profile.jpg';
+import BuyMeCoffee from '../lib/BuyMeCoffee';
 import useWindowDimensions from '../lib/windowDimensions';
 
 const About = () => {
@@ -30,10 +31,10 @@ const About = () => {
 		<Layout id='about'>
 			<div className='flex flex-col h-full'>
 				<div className='grid md:grid-cols-3 flex-grow-0'>
-					<div className='my-2 md:order-3 justify-self-center'>
+					<div className='my-2 md:order-3'>
 						<img
 							src={profileImage}
-							className='w-64 md:w-96 rounded-xl md:rounded-full'
+							className='w-5/6 md:w-96 rounded-xl md:rounded-full'
 							alt='Profile'
 						/>
 						<figcaption className='block text-gray-500 italic py-4 text-center'>
@@ -47,7 +48,7 @@ const About = () => {
 										to='/files/CV_nuriddinislamov.pdf'
 										download
 										target='_blank'
-										className='px-4 py-2 inline-block font-bold border-2 solid border-gray-800 rounded-xl hover:bg-gray-800 hover:text-white hover:after:underline hover:after:underline-offset-1'>
+										className='px-4 py-2 inline-block font-bold border-2 solid border-gray-800 rounded-xl hover:bg-gray-800 hover:text-white'>
 										<span className='inline-block'>Download</span> my Résumé
 									</Link>
 								</div>
@@ -240,6 +241,13 @@ const About = () => {
 							some of my <a href='https://github.com/nuriddinislamov'>repos</a>.
 						</p>
 
+						<h2>Support me</h2>
+						<p>
+							Boiling point of creativity is when a developer is fully focused
+							on the work. <b>Consider</b> supporting me with a cup of coffee so
+							that I can do more everyday.
+						</p>
+						<BuyMeCoffee width='5/6 md:w-2/3' height='36' />
 						{/* <ReactMarkdown children={content} remarkPlugins={[remarkGfm]} /> */}
 					</div>
 				</div>
