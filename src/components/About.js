@@ -34,7 +34,7 @@ const About = () => {
 					<div className='my-2 md:order-3'>
 						<img
 							src={profileImage}
-							className='w-5/6 md:w-96 rounded-xl md:rounded-full'
+							className='w-5/6 md:w-96 mx-auto rounded-xl md:rounded-full'
 							alt='Profile'
 						/>
 						<figcaption className='block text-gray-500 italic py-4 text-center'>
