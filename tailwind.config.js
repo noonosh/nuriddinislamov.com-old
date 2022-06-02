@@ -3,7 +3,11 @@ module.exports = {
 	purge: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx}'],
 	darkMode: false,
 	theme: {
-		extend: {},
+		extend: {
+			fontFamily: {
+				rubik: ['Rubik', 'sans-serif'],
+			},
+		},
 	},
 	plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms')],
 };

@@ -1,9 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
 
 * {
 	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'Rubik';
+	/* src: url('../assets/fonts/Rubik.ttf'); */
 }
 
 @layer components {
