@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 // import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Layout from '../layouts/Layout';
@@ -6,12 +6,13 @@ import Navigation from './Navigation';
 // import ReactMarkdown from 'react-markdown';
 // import remarkGfm from 'remark-gfm';
 // import aboutPage from '../pages/about.md';
-import profileImage from '../assets/profile.jpg';
+import profileImage from '../assets/profile.webp';
 import BuyMeCoffee from '../lib/BuyMeCoffee';
 import useWindowDimensions from '../lib/windowDimensions';
 
 const About = () => {
 	const { width } = useWindowDimensions();
+	const imageUrl = 'https://i.ibb.co/5cvpqp3/profile.jpg';
 
 	/*
 	Following commented out code is for rendering content of markdown files.
@@ -26,6 +27,16 @@ const About = () => {
 	// 		.then(res => res.text())
 	// 		.then(text => setContent(text));
 	// }, []);
+
+	useEffect(() => {
+		fetch(imageUrl)
+			.then(response => response.blob())
+			.then(imageBlob => {
+				// Then create a local URL for that image and print it
+				const imageObjectURL = URL.createObjectURL(imageBlob);
+				return imageObjectURL;
+			});
+	}, []);
 
 	return (
 		<Layout id='about'>
