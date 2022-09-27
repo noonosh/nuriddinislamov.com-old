@@ -1,7 +1,7 @@
-import React from 'react';
-import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
-import BuyMeCoffeeButton from '../lib/BMCButton';
+import React from "react";
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
+import BuyMeCoffeeButton from "../lib/BMCButton";
 
 function Layout({ children, id, isHome }) {
 	return (
@@ -13,7 +13,7 @@ function Layout({ children, id, isHome }) {
 				</section>
 				<Footer isHome={isHome || false} />
 			</div>
-			<BuyMeCoffeeButton />
+			{/* <BuyMeCoffeeButton /> */}
 		</React.Fragment>
 	);
 }
