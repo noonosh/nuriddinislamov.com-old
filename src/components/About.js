@@ -1,18 +1,18 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 // import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import Layout from '../layouts/Layout';
-import Navigation from './Navigation';
+import { Link } from "react-router-dom";
+import Layout from "../layouts/Layout";
+import Navigation from "./Navigation";
 // import ReactMarkdown from 'react-markdown';
 // import remarkGfm from 'remark-gfm';
 // import aboutPage from '../pages/about.md';
-import profileImage from '../assets/profile.webp';
-import BuyMeCoffee from '../lib/BuyMeCoffee';
-import useWindowDimensions from '../lib/windowDimensions';
+import profileImage from "../assets/profile.webp";
+import BuyMeCoffee from "../lib/BuyMeCoffee";
+import useWindowDimensions from "../lib/windowDimensions";
 
 const About = () => {
 	const { width } = useWindowDimensions();
-	const imageUrl = 'https://i.ibb.co/5cvpqp3/profile.jpg';
+	const imageUrl = "https://i.ibb.co/5cvpqp3/profile.jpg";
 
 	/*
 	Following commented out code is for rendering content of markdown files.
@@ -40,7 +40,7 @@ const About = () => {
 
 	return (
 		<Layout id='about'>
-			<div className='flex flex-col h-full'>
+			<div className='flex flex-col h-full sm:w-5/6 mx-auto'>
 				<div className='grid md:grid-cols-3 flex-grow-0'>
 					<div className='my-2 md:order-3'>
 						<img
@@ -111,13 +111,13 @@ const About = () => {
 						<h2>A little back</h2>
 						<p>
 							Around 5 years ago, I started living. Sounds strange, right? Keep
-							reading and I will tell you my story. (This page’s content is{' '}
+							reading and I will tell you my story. (This page’s content is{" "}
 							<strong>to be updated regularly</strong> in the next couple of
 							weeks, so consider checking back in a while).
 						</p>
 						<h2>Tech that I live with</h2>
 						<p>
-							Currently living the best of my life with <strong>JS</strong> and{' '}
+							Currently living the best of my life with <strong>JS</strong> and{" "}
 							<strong>React</strong>, however there is some more:
 						</p>
 						<ul>
@@ -130,10 +130,10 @@ const About = () => {
 						</ul>
 						<h2>Experience</h2>
 						<p>
-							I started my journey in summer 2020 with{' '}
+							I started my journey in summer 2020 with{" "}
 							<a href='https://KhanAcademy.org'>KhanAcademy.org</a> particularly
 							with JavaScript course. Although nothing was clear by that time, I
-							am very grateful to{' '}
+							am very grateful to{" "}
 							<a href='https://Tehnikum.school'>Tehnikum.school</a> for taking
 							me into the world of software. In late 2020, I took a Python
 							course. This was the start.
@@ -226,13 +226,13 @@ const About = () => {
 						<h3>Udacity</h3>
 						<ul>
 							<li>
-								Full Stack Development Track – Credential ID{' '}
+								Full Stack Development Track – Credential ID{" "}
 								<strong>NFZGZALW</strong>
 							</li>
 						</ul>
 						<h2>YouTube</h2>
 						<iframe
-							className='w-full h-[400px]'
+							className='w-full h-[400px] mb-6'
 							src='https://www.youtube.com/embed/Ylrm24MsqkY'
 							title='YouTube video player'
 							frameborder='0'
@@ -240,14 +240,14 @@ const About = () => {
 							allowfullscreen></iframe>
 						<h2>Reach me</h2>
 						<p>
-							Considering a talk with me? Go to{' '}
-							<Link to='/reach-out'>contact page</Link>, or leave an email at{' '}
+							Considering a talk with me? Go to{" "}
+							<Link to='/reach-out'>contact page</Link>, or leave an email at{" "}
 							<a href='mailto:nuriddinislamov@icloud.com'>
 								nuriddinislamov@icloud.com
 							</a>
-							. However, Linkedin{' '}
-							<a href='https://www.linkedin.com/in/nuriddinislamov'>messages</a>{' '}
-							are open. Read my{' '}
+							. However, Linkedin{" "}
+							<a href='https://www.linkedin.com/in/nuriddinislamov'>messages</a>{" "}
+							are open. Read my{" "}
 							<a href='https://twitter.com/nuriddinislamov'>tweets</a> and fork
 							some of my <a href='https://github.com/nuriddinislamov'>repos</a>.
 						</p>
@@ -264,8 +264,8 @@ const About = () => {
 				</div>
 
 				<Navigation
-					prev={{ name: 'home', path: '/' }}
-					next={{ name: 'contact', path: '/reach-out' }}
+					prev={{ name: "home", path: "/" }}
+					next={{ name: "contact", path: "/reach-out" }}
 				/>
 			</div>
 		</Layout>
