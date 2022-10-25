@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
-import Layout from '../layouts/Layout';
-import useWindowDimensions from '../lib/windowDimensions';
-import helloImage from '../assets/hello.jpeg';
-import { Link } from 'react-router-dom';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React, { useEffect } from "react";
+import Layout from "../layouts/Layout";
+import useWindowDimensions from "../lib/windowDimensions";
+import helloImage from "../assets/hello.jpeg";
+import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Home = () => {
 	const { width } = useWindowDimensions();
@@ -33,19 +33,17 @@ const Home = () => {
 					<img
 						src={helloImage}
 						alt='Nuriddin waving memoji'
-						className='self-center w-48 h-48 md:w-72 md:h-72 lg:w-96 lg:h-96 rounded-xl'
+						className='self-center w-48 h-48 md:w-72 md:h-72 lg:w-96 lg:h-96 rounded-xl object-cover'
 					/>
 					<div className='text-left'>
-						<h2 className='font-extrabold text-5xl mb-3'>
-							Salut, I say to you
-						</h2>
+						<h2 className='font-extrabold text-5xl mb-3'>Hey, friend</h2>
 						<p className='text-xl mb-3'>
-							Welcome to my corner of the world. I am a young software engineer
-							working in Python and JavaScript. Moreover...
+							Nice to have your here – in my little corner of the world.
+							<br />I am a Software Engineer and I build stuff for people
 						</p>
 						<Link
 							to='/me'
-							className='link text-2xl mt-6 md:mt-0 md:text-base inline-block hover:text-sky-500 hover:underline hover:underline-offset-1 hover:transition-colors duration-200 font-light'>
+							className='text-xl mt-6 md:mt-0 md:text-lg inline-block hover:text-sky-500 underline underline-offset-2 hover:transition-colors duration-200'>
 							Continue reading &rarr;
 						</Link>
 					</div>
