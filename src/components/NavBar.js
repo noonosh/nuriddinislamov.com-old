@@ -1,6 +1,6 @@
-import React from 'react';
-import useWindowDimensions from '../lib/windowDimensions';
-import { Link } from 'react-router-dom';
+import React from "react";
+import useWindowDimensions from "../lib/windowDimensions";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
 	const { width } = useWindowDimensions();
@@ -12,11 +12,11 @@ const NavBar = () => {
 					<div className='text-center md:text-left'>
 						<h1 className='font-extrabold text-2xl md:text-4xl md:self-center md:mb-0 inline-block'>
 							<Link to='/' className='link'>
-								{width >= 768 ? 'Nuriddin Islamov' : 'Nuriddin'}
+								{width >= 768 ? "Nuriddin Islamov" : "Nuriddin"}
 							</Link>
 						</h1>
 						<p className='font-light text-base md:text-base'>
-							Jr. Software Engineer
+							Software Engineer
 						</p>
 					</div>
 
