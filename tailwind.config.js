@@ -1,13 +1,12 @@
 module.exports = {
-	mode: 'jit',
-	purge: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx}'],
-	darkMode: false,
+	mode: "jit",
+	content: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx}"],
 	theme: {
 		extend: {
 			fontFamily: {
-				rubik: ['Rubik', 'sans-serif'],
+				rubik: ["Rubik", "sans-serif"],
 			},
 		},
 	},
-	plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms')],
+	plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };
