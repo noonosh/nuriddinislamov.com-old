@@ -17,15 +17,6 @@ const Home = () => {
 
 	return (
 		<Layout id='home' isHome={true}>
-			<a
-				className='bg-red-600 absolute rotate-90 block -right-28 text-center top-20 bold font-bold text-sm text-white shadow-md py-1 px-24 z-40'
-				href='http://github.com/nuriddinislamov/nuriddinislamov.com'
-				target='_blank'
-				rel='noopener noreferrer'
-				id='github'>
-				Fork me on Github
-			</a>
-
 			<div className='flex flex-col h-full items-center justify-between md:justify-center'>
 				<div
 					data-aos='fade-in'
