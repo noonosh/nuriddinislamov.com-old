@@ -5,7 +5,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const Banner = () => {
 	return (
 		<a
-			href='https://read.nuriddinislamov.com/'
+			href='https://read.nuriddinislamov.com?utm_source=nuriddinislamov.com&utm_medium=banner&utm_campaign=read-more'
 			target='_blank'
 			rel='noopener noreferrer'
 			className='block w-screen bg-blue-600 py-2 sticky top-0 left-0 hover:underline underline-offset-2 text-white'>
