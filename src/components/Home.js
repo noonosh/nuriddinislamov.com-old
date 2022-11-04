@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 
 const Home = () => {
 	const { width } = useWindowDimensions();
+	const greetings = ["Hello", "Hola", "Привет", "Bonjour", "Aloha"];
 
 	useEffect(() => {
 		AOS.init({
@@ -27,7 +28,9 @@ const Home = () => {
 						className='self-center w-48 h-48 md:w-72 md:h-72 lg:w-96 lg:h-96 rounded-xl object-cover'
 					/>
 					<div className='text-left'>
-						<h2 className='font-extrabold text-5xl mb-3'>Hey, friend</h2>
+						<h1 id='greeting' className='font-extrabold text-5xl mb-3'>
+							Hola!
+						</h1>
 						<p className='text-xl mb-3'>
 							Nice to have your here – in my little corner of the world.
 							<br />I am a Software Engineer and I build stuff for people
